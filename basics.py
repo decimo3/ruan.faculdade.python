@@ -40,8 +40,9 @@ media_final = float(input("Digite a média final: "))
 if qtde_faltas <= 5 and media_final >= 7:
     print("Aluno aprovado!")
 else:
-    print("Aluno reprovado!")
+    print("Aluno reprovado!") 
 
-# As aspas triplas possibilitam quebrar a linha do texto.
-# As aspas triplas também podem ser usadas para criar comentários de várias linhas em Python.
-
+"""
+As aspas triplas possibilitam quebrar a linha do texto.
+As aspas triplas também podem ser usadas para criar comentários de várias linhas em Python.
+"""
