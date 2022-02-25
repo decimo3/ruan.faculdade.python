@@ -46,3 +46,12 @@ else:
 As aspas triplas possibilitam quebrar a linha do texto.
 As aspas triplas também podem ser usadas para criar comentários de várias linhas em Python.
 """
+
+# Declaração de funções no Python
+def soma():
+    a = int(input("Digite um número: "))
+    b = int(input("Digite um número: "))
+    s = a + b
+    print(f"A soma de {a} e {b} é {s}")
+
+soma()
